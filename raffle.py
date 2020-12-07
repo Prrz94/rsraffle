@@ -26,7 +26,7 @@ def Main():
             t.ti = ''.join(t.ti)
 
         with open("raffle_nn.txt", "a") as f:
-            if f.ti not in "raffle_nn.txt":
+            if t.ti not in "raffle_nn.txt":
                 f.write(t.ti + " | " + t.name + "\n")
                 t.ti = []
             else:
